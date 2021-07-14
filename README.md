@@ -1,9 +1,17 @@
-# Fabric Example Mod
+# Furren
 
-## Setup
+## Adding to your build script
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+```gradle
+repositories {
+    maven {
+        url 'https://jitpack.io' 
+    }
+}
 
-## License
+dependencies {
+    implementation 'com.github.cinzfurz:furren:<VERSION>'
+}
+```
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+The newest version is in the [releases](https://github.com/cinzfurz/furren/releases) tab!
